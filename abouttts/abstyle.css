@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    background: url("23.jpg")no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+   
+
+}
+.log-text{
+
+        float:right;
+        clear:right;
+    }
+
+.navbar{
+    background-color: black;
+}
+.navbar-toggler{
+    border:none!important;
+    outline:none!important;
+}
+nav .fa-bars
+{
+    color:#fff;
+    font-size:26px;
+}
+.navbar-nav
+{
+    float:right;
+    color:floralwhite!important;
+    clear: right;
+    
+}
+.log-text{
+
+    float:right;
+    clear:right;
+}
+.navbar-brand img{
+    margin-left:30px;
+
+}
+.main{
+    width: 64%;
+    background: rgba(0, 0, 0, 0.836);
+    padding: 50px;
+    text-align: left;
+    position: absolute;
+    top: 54.4%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%); 
+   
+}
+
+@media(max-width: 767px){
+        .header{
+            height:100vh;
+        }
+        .main{
+           
+            text-align: left;
+            color: #ffffff;
+            width: 100%;
+            height: 100%;
+            clear: both;
+            top: 50%;
+            padding: 60px;
+            font-size: 13px;
+        }
+}
+
+@media(max-width: 450px){
+    .header{
+        height:100vh;
+    }
+    .main{
+           
+        text-align: left;
+        color: #ffffff;
+        width: 60vh;
+        height: 100%;
+        clear: both;
+        top: 40%;
+        padding: 40px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 360px){
+    .header{
+        height:100vh;
+    }
+    .main{
+           
+        text-align: left;
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        clear: both;
+        top: 50%;
+        padding: 40px;
+        font-size: 12px;
+    }
+}
+    /*@media(max-width: 767px){
+        .main{
+           
+            text-align: left;
+            color: #ffffff;
+            width: 57.3vh;
+            clear: both;
+            top:60%;
+            padding: 50px;
+            font-size: 12px;
+             backdrop-filter: blur(25px);
+        }
+
+    }*/
